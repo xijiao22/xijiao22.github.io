@@ -1,0 +1,257 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/calendar.css" />
+    <link rel="stylesheet" href="nivo-slider/nivo-slider.css" />
+    <link rel="stylesheet" href="nivo-slider/themes/light/light.css" />
+     <link rel="stylesheet" href="css/main.css" />
+    <script src="js/vendor/modernizr.js"></script>
+    
+
+
+  </head>
+  <body>
+    
+    <!-- Header and Nav -->
+  
+  <div class="row">
+    <div class="large-3 columns">
+      <h1><img style="height:80%" src="img/davidKirsh-shadow.jpg" /></h1>
+    </div>
+    <div class="large-9 columns">
+      <ul class="inline-list right navigation" id="toLeft">
+        <li><a class="highlight" href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="lab.html">Lab</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li> 
+          <div class="dropdown">
+              <a href="contact.html">Contact</a>
+                <div class="dropdown-content">
+                  <iframe src="contact.html" height="400" width="600"></iframe>
+                </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- End Header and Nav -->
+  
+  
+  <div class="row" >
+
+    <!-- Main Content Section -->
+    <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
+    
+    <div class="large-9 columns">
+
+      <ul class="example-orbit" data-orbit>
+        <li>
+          <img src="img/neuron.jpg" alt="slide 1" />
+          <div class="orbit-caption">
+            <p><a href="">Highlighted Project</a> Description of project picture/video goes here.</p>
+          </div>
+        </li>
+        <li class="">
+          <img src="img/brain.jpg" alt="slide 2" />
+          <div class="orbit-caption">
+            Do you want to know about brain?
+          </div>
+        </li>
+        <li>
+          <img src="img/joinus.jpg" alt="slide 3" />
+          <div class="orbit-caption">
+            Join us right now.
+          </div>
+        </li>
+      </ul>
+
+    </div>
+
+    <!-- Nav Sidebar -->
+    <!-- This is source ordered to be pulled to the left on larger screens -->
+    <div class="large-3 columns home_">
+        
+      <h4>About</h4>
+      <hr>
+
+      <h5>David Kirsh</h5>
+
+      <p>Professor of Cognitive Science</br>Co-Director of Arthur C Clarke</br>Center for Human Imagination</p>
+
+      <h5>Contact</h5>
+
+      <table>
+        <tr>
+          <td  style="text-align: left;">Phone</td>
+          <td  style="text-align: left;">(858) 822-2475</td>
+      </tr>
+
+        <tr>
+          <td  style="text-align: left;">Lab</td>
+          <td  style="text-align: left;">CSB 205-206</td>
+        </tr>
+
+        <tr>
+          <td  style="text-align: left;">Office</td>
+          <td  style="text-align: left;">CSB 173</td>
+        </tr>
+       
+       <tr>
+          <td  style="text-align: left;">Email</td>
+          <td  style="text-align: left;">kirsh@ucsd.edu</td>
+        </tr>
+      </table>
+
+        
+    </div>  
+      
+
+  </div>
+
+  <div class="row">
+
+    <div class="large-9 columns">
+      <div>
+
+      <h2>Who Am I</h2>
+      <hr>
+      <p>I am a Professor and past chair of the Cognitive Science department at UCSD, where I have been working since the department was created in 1989. My research interests vary, but all turn on understanding how we are tightly coupled to the outside world, and how that interactive coupling has shaped the inner and outer workings of our cognitive skills and capacities. Over the years I have looked at how the environment can be configured to simplify and extend cognition, including how we intelligently use space to cope with the complexity of everyday life, and how we use external representations as an interactive tool for thought. Most recently, I have been studying the ways humans use their bodies as things to think with, specifically in dance making and choreographic cognition. My approach combines theory, experiment and ethnographic study. Because my focus is on how we interact with the environment I am sensitive to the relevance of cognitive science for design. As that field expands, and as the digital increasingly interpenetrates the physical, I think the importance of our field will grow and we should be self-conscious about our influence in that expanding area.</p>
+
+      <h2>Currently Working On</h2>
+      <hr>
+      <p>Three big ideas have been occupying my time recently: how to speed up thought, how we think in different sensory modalities - thinking with our bodies is just one of these, and what it means for something to be a coordinating structure and why it's at the very heart of what distributed cognition is all about.  </p>
+
+      </div>
+    </div>
+
+    <div class="large-3 columns home_">
+      <h3 id="tc">Travel Calendar</h3>
+        <div class="calendar">
+          <div class="month">      
+            <ul>
+              <li>
+                October<br>
+                <span style="font-size:18px">2018</span>
+              </li>
+            </ul>
+          </div>
+          
+          <ul class="weekdays">
+            <li>Mo</li>
+            <li>Tu</li>
+            <li>We</li>
+            <li>Th</li>
+            <li>Fr</li>
+            <li>Sa</li>
+            <li>Su</li>
+          </ul>
+          
+          <ul class="days" id='c_days'>  
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li><span class="active">10</span></li>
+            <li>11</li>
+            <li>12</li>
+            <li>13</li>
+            <li>14</li>
+            <li>15</li>
+            <li>16</li>
+            <li>17</li>
+            <li>18</li>
+            <li>19</li>
+            <li>20</li>
+            <li>21</li>
+            <li>22</li>
+            <li>23</li>
+            <li>24</li>
+            <li>25</li>
+            <li>26</li>
+            <li>27</li>
+            <li>28</li>
+            <li>29</li>
+            <li>30</li>
+            <li>31</li>
+          </ul>
+        </div>
+        <label id ="eventBox"></label>
+        <div >
+          <div >
+            <h3 id="classinfo">Class Information</h3>
+            <p>COGS 187A: Multimedia Design</br>COGS 187B: Designing Environments</br>COGS 160: Dance Ethnography</p>
+      
+          </div>
+        </div>
+    </div>
+      
+      
+      </div>
+    
+
+  </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="nivo-slider/jquery.nivo.slider.pack.js"></script>
+    <script src="js/foundation.min.js"></script>
+    
+    <script type="text/javascript">
+      $(window).load(function() {
+        $('#slider').nivoSlider();
+      });
+    </script>
+
+    <script>
+      $(document).foundation();
+    </script>
+
+  <script>
+    // IE does not know about the target attribute. It looks for srcElement
+    // This function will get the event target in a browser-compatible way
+    function getEventTarget(e) {
+      e = e || window.event;
+      return e.target || e.srcElement; 
+    }
+
+    
+    var ul = document.getElementById('c_days');
+    ul.onclick = function(event) {
+      var target = getEventTarget(event);
+      if(target.nodeName == "UL"){
+          var eventBox = document.getElementById("eventBox");
+          eventBox.style.display = "none";
+          return;
+      }
+
+
+      if(target.innerHTML == "10"){
+          var eventBox = document.getElementById("eventBox");
+          eventBox.textContent = " IEE Conference/CSB101";    
+          eventBox.style.display = "block";
+      }else{
+          var eventBox = document.getElementById("eventBox");
+          eventBox.style.display = "none";
+      }
+    
+    };
+
+  </script>
+
+  </body>
+</html>
+
+
+

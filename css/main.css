@@ -1,0 +1,183 @@
+.topicBriefInfo {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d7d7d7;
+	margin-bottom: 1.25rem;
+	padding: 1.22rem;
+	background: #f2f2f2;
+}
+
+.topicBriefInfo > p {
+	margin-bottom: 0px;
+}
+
+.topicBriefInfo > h4 {
+	margin-top: 0px;
+}
+
+.topicFullInfo {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d7d7d7;
+	margin-bottom: 1.25rem;
+	padding: 1.22rem;
+	background: #f2f2f2;
+}
+
+.projectSquare {
+	border: solid 1px black;
+}
+
+.sliderWrapper {
+	padding: 0px;
+}
+
+.theme-light.slider-wrapper {
+	padding: 10px 10px 0px 0px;
+}
+
+.navigation {
+	margin-top: 25px;
+}
+
+.tabs dd.active a {
+	/*border-style: solid;
+	border-width: 1px;
+	border-color: #b6edff;*/
+	background: #ecfaff;
+}
+
+.tabs dd.active a:hover {
+	background-color:#565757;
+}
+
+.tabs dd > a {
+	padding: .5rem 1rem;
+}
+
+hr {
+border: solid #dddddd;
+border-width: 1px 0 0;
+clear: both;
+margin: 1rem 0 1rem;
+height: 0;
+}
+
+.project_hr {
+	border: solid #dddddd;
+	border-width: 1px 0 0;
+	clear: both;
+	margin: .2rem 0 1rem;
+	height: 0;
+}
+
+.project_list_read_more {
+	margin-bottom: 0px;
+	text-align: right;
+}
+
+.project_list_project_description {
+	margin-bottom: 10px;
+}
+
+.project_list_project_title {
+	margin-top: 20px;
+	margin-bottom: 2px;
+}
+
+.project_div {
+	border: 1px solid black;
+	margin-bottom: 15px;
+}
+
+.project_thumbnail {
+	padding-top: 14px;
+}
+
+.project_thumbs {
+	margin-top: 14px;
+	margin-bottom: -15px;
+}
+
+.row .project_div {
+	margin-bottom: 15px;
+}
+
+#inline-child1{
+	display: flex;
+	width: 50%;
+	float: left;
+}
+.inline-child2{
+	display: flex;
+	width: 50%;
+	/* float: right; */
+}
+
+#tc{
+	margin-top:10px;
+	margin-bottom:30px;
+}
+
+#classinfo{
+	margin-top:100px;
+	margin-bottom:20px;
+}
+
+#md{
+	margin-top:30px;
+}
+#mr{
+	margin-right:20px;
+}
+
+#ml{
+ margin-right:10px;	
+}
+
+.reduced{
+	width:60%;
+	height:60%;
+}
+
+.reduced2{
+	font-size: 25px;
+}
+
+.up{
+	margin-top:-6px;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+	z-index: 1;
+	right:0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+a.highlight:visited{
+	color: green;
+	font-weight:thick;
+}
+
+#toLeft{
+	margin-right:30px;
+}
+
+#moveDown{
+	margin-top:28px;
+}
+
